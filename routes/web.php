@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [LandingPage::class,"index"])->name('home');
+Route::get('/film', [LandingPage::class,"film"])->name('film');
