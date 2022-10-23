@@ -173,6 +173,27 @@
             </div>
         </div>
 
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-5">
+                    <div class="deskripsi-carousel">
+                        <h1 class="text-white mt-5">
+                            Title
+                        </h1>
+                        <h4 class="text-genre-carousel mt-3 mb-0">
+                            Genre &#183; 18+
+                        </h4>
+                        <h4 class="text-secondary-carousel mt-3 mb-0">
+                            Lorem isum dolor sit amet consectetur adipisicing elit. Natus voluptatibus reiciendis odio animi sint, a rem sit explicabo asperiores. Obcaecati soluta, et unde numquam provident ex quae non aspernatur ducimus?
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <img src="https://i.pinimg.com/564x/73/41/98/7341980d518aeef9d525ff4e438bb9de.jpg" class="ms-auto d-block img-carousel" alt="...">
+                </div>
+            </div>
+        </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
