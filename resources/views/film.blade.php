@@ -80,7 +80,7 @@
     }
 
     .img-carousel {
-        width: 1000px;
+        width: 100%;
         height: 580px;
         object-fit: cover;
     }
@@ -133,7 +133,7 @@
 
         <div class="carousel-item active">
             <div class="row">
-                <div class="col">
+                <div class="col-5">
                     <div class="deskripsi-carousel">
                         <h1 class="text-white mt-5">
                             Title
@@ -146,7 +146,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-7">
                     <img src="https://i.pinimg.com/564x/20/05/48/200548127f9d2266c0e2e2b4955acd3c.jpg" class="ms-auto d-block img-carousel" alt="...">
                 </div>
             </div>
@@ -154,7 +154,7 @@
 
         <div class="carousel-item">
             <div class="row">
-                <div class="col">
+                <div class="col-5">
                     <div class="deskripsi-carousel">
                         <h1 class="text-white mt-5">
                             Title
@@ -167,7 +167,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-7">
                     <img src="https://i.pinimg.com/564x/54/8f/4f/548f4f5fd1863dafbe88312703dda0ae.jpg" class="ms-auto d-block img-carousel" alt="...">
                 </div>
             </div>
