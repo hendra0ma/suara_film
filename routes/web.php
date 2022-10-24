@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [LandingPage::class,"index"])->name('home');
-Route::get('/film', [LandingPage::class,"film"])->name('film');
+Route::get('/biodata', [LandingPage::class,"index"])->name('home');
+Route::get('/', [LandingPage::class,"film"])->name('film');
