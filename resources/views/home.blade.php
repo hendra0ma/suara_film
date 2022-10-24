@@ -3,6 +3,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <div class="resume-wrapper">
     <section class="profile section-padding bg-light">
@@ -81,19 +82,19 @@
             </div>
         </div>
     </section>
-
     <section class="experience section-padding">
         <div class="container">
             <h3 class="experience-title">Experience</h3>
-
             <div class="experience-wrapper">
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                    <div class="company-wrapper clearfix">
+                    <div class="experience-title">Company</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
                     <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
                 </div>
 
+                
+
                 <div class="job-wrapper clearfix">
-                    <div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
+                    <div class="experience-title">Penyanyi</div> <!-- JOB TITLE  -->
                     <div class="company-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing
                             leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
@@ -101,12 +102,12 @@
                 </div>
 
                 <div class="company-wrapper clearfix">
-                    <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                    <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    <div class="experience-title">Company</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                    <div class="time">Nov 2015 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
                 </div>
 
                 <div class="job-wrapper clearfix">
-                    <div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
+                    <div class="experience-title">Aktris Film</div> <!-- JOB TITLE  -->
                     <div class="company-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing
                             leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
