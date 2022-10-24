@@ -1,6 +1,11 @@
 @extends('template.main_film')
 @section('content')
 <style>
+    body::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+
     nav.bg-darker {
         background-color: #3d3e42;
     }
@@ -104,15 +109,63 @@
     }
 
     .image-poster {
+        border: 0.75px solid black;
         width: 200px;
         height: 300px;
-        object-fit: cover
+        object-fit: cover;
     }
 
     .container-poster {
         overflow-x: scroll;
         flex-wrap: nowrap;
     }
+
+    .container-poster::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+
+    .btn-scroll {
+        padding: .375rem 0.35rem;
+        height: 300px;
+        color: rgba(255, 255, 255, 0.80);
+    }
+    
+    .btn:focus,.btn:active {
+       outline: none !important;
+       box-shadow: none;
+    }
+
+    .parent-relative {
+        position: relative;
+    }
+
+    .left-button {
+        border: 0px;
+        background: linear-gradient(to left, transparent 2%, rgba(0, 0, 0, 0.2) 100%);
+        position: absolute;
+        left: -2rem;
+    }
+
+    .right-button {
+        border: 0px;
+        background: linear-gradient(to right, transparent 2%, rgba(0, 0, 0, 0.2) 100%);
+        position: absolute;
+        right: -2rem;
+    }
+
+    .left-button:hover {
+        color: rgb(240, 240, 240);
+        border: 0px;
+        background: linear-gradient(to left, transparent 2%, rgba(0, 0, 0, 0.3) 100%);
+    }
+
+    .right-button:hover {
+        color: rgb(240, 240, 240);
+        border: 0px;
+        background: linear-gradient(to right, transparent 2%, rgba(0, 0, 0, 0.3) 100%);
+    }
+
 </style>
 
 {{-- film-carousel --}}
@@ -196,9 +249,18 @@
 <div class="container-fluid custom mt-4 mb-5">
 
     {{-- list film --}}
-    <section>
+    <section class="parent-relative">
         <h1>Trending</h1>
-        <div class="row g-3 container-poster">
+
+        <button class="btn btn-scroll left-button" id="left-button">
+            <h3><i class="fa-solid fa-angle-left"></i></h3>
+        </button>
+
+        <button class="btn btn-scroll right-button" id="right-button">
+            <h3><i class="fa-solid fa-angle-right"></i></h3>
+        </button>
+
+        <div class="row g-3 container-poster" id="poster">
             <div class="col-auto">
                 <img class="image-poster" src="https://i.pinimg.com/564x/4c/80/ac/4c80ac0ccf18e1a198bc6b4120a43a79.jpg" alt="">
             </div>
@@ -227,9 +289,26 @@
                 <img class="image-poster" src="https://i.pinimg.com/564x/cb/e0/80/cbe0805aea34cca87635e51a007598a7.jpg" alt="">
             </div>
         </div>
+
     </section>
 
 </div>
+
+<script>
+    $('#right-button').click(function() {
+        event.preventDefault();
+        $('#poster').animate({
+            scrollLeft: "+=200px"
+        }, "slow");
+    }); 
+
+     $('#left-button').click(function() {
+        event.preventDefault();
+        $('#poster').animate({
+            scrollLeft: "-=200px"
+        }, "slow");
+    });
+</script>
 
 
 
