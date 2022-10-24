@@ -3,13 +3,14 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <div class="resume-wrapper">
     <section class="profile section-padding bg-light">
         <div class="container">
             <div class="picture-resume-wrapper">
                 <div class="picture-resume">
-                    <span><img src="https://mmc.tirto.id/image/otf/700x0/2020/08/06/lesti-kejora_ratio-16x9.jpg" alt="" style="width:120px;height:120px;object-fit:cover"/></span>
+                    <span><img src="https://cf.shopee.co.id/file/880633155fad40ec9a995fcdb20b2fcb_tn" alt="" style="width:120px;height:120px;object-fit:cover"/></span>
                     <svg version="1.1" viewBox="0 0 350 350">
 
                         <defs>
@@ -22,7 +23,6 @@
 
 
                         <g filter="url(#goo)">
-
                             <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130" />
 
                             <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7" />
@@ -43,21 +43,20 @@
                 <div class="clearfix"></div>
             </div>
             <div class="name-wrapper">
-                <h1>Lesti <br> Kejora</h1><!-- YOUR NAME AND LAST NAME  -->
+                <h1>Joko <br> Hartanto</h1><!-- YOUR NAME AND LAST NAME  -->
             </div>
             <div class="clearfix"></div>
             <div class="contact-info clearfix">
                 <ul class="list-titles">
                     <li>Call</li>
                     <li>Mail</li>
-               
                     <li>Home</li>
                 </ul>
                 <ul class="list-content ">
                     <li>+34 123 456 789</li> <!-- YOUR PHONE NUMBER  -->
-                    <li>lesti.kejora@gmail.com</li> <!-- YOUR EMAIL -->
+                    <li>joko.hartanto@gmail.com</li> <!-- YOUR EMAIL -->
                 
-                    <li>Los Angeles, CA</li> <!-- YOUR STATE AND COUNTRY  -->
+                    <li>Malang, Lowokwaru</li> <!-- YOUR STATE AND COUNTRY  -->
                 </ul>
             </div>
             <div class="contact-presentation">
@@ -81,19 +80,19 @@
             </div>
         </div>
     </section>
-
     <section class="experience section-padding">
         <div class="container">
             <h3 class="experience-title">Experience</h3>
-
             <div class="experience-wrapper">
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                    <div class="company-wrapper clearfix">
+                    <div class="experience-title">Company</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
                     <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
                 </div>
 
+                
+
                 <div class="job-wrapper clearfix">
-                    <div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
+                    <div class="experience-title">Musisi</div> <!-- JOB TITLE  -->
                     <div class="company-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing
                             leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
@@ -101,25 +100,12 @@
                 </div>
 
                 <div class="company-wrapper clearfix">
-                    <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                    <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    <div class="experience-title">Company</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                    <div class="time">Nov 2015 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
                 </div>
 
                 <div class="job-wrapper clearfix">
-                    <div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
-                    <div class="company-description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing
-                            leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
-                    </div>
-                </div>
-
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                    <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                </div>
-
-                <div class="job-wrapper clearfix">
-                    <div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
+                    <div class="experience-title">Aktris Film</div> <!-- JOB TITLE  -->
                     <div class="company-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing
                             leo in, dignissim magna.</p> <!-- JOB DESCRIPTION  -->
@@ -132,12 +118,8 @@
             <div class="section-wrapper clearfix">
                 <h3 class="section-title">Skills</h3> <!-- YOUR SET OF SKILLS  -->
                 <ul>
-                    <li class="skill-percentage">HTML / HTML5</li>
-                    <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
-                    <li class="skill-percentage">Javascript</li>
-                    <li class="skill-percentage">Jquery</li>
-                    <li class="skill-percentage">Wordpress</li>
-                    <li class="skill-percentage">Photoshop</li>
+                    <li class="skill-percentage">Impersonate</li>
+                    <li class="skill-percentage">Acting for Film</li>
 
                 </ul>
 
