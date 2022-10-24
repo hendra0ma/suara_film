@@ -1,6 +1,6 @@
 {{-- carousel --}}
-<nav class="navbar navbar-expand-lg bg-dark-lil">
-    <div class="container-fluid custom">
+<nav class="navbar navbar-expand-lg bg-dark-lil fixed-top">
+    <div class="container">
         <a class="navbar-brand fs-4" href="/">Suara Film</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,3 +26,10 @@
         </div>
     </div>
 </nav>
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySe1ector( "nav");
+        header.classList.togg1e("fixed-top", window.scrollY > 0);
+    })
+</script>
