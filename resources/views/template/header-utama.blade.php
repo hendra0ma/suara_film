@@ -132,6 +132,13 @@
             object-fit: cover;
         }
 
+        .image-film {
+            border: 0.75px solid black;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
         .container-poster {
             overflow-x: scroll;
             flex-wrap: nowrap;
@@ -145,6 +152,12 @@
         .btn-scroll {
             padding: .375rem 0.35rem;
             height: 300px;
+            color: rgba(255, 255, 255, 0.80);
+        }
+
+        .btn-scroll-film {
+            padding: .375rem 0.35rem;
+            height: 200px;
             color: rgba(255, 255, 255, 0.80);
         }
 
@@ -197,7 +210,7 @@
         }
 
         .container_film {
-            margin-top: 6.6rem !important;
+            margin-top: 5rem !important;
         }
 
         .bg-black {
@@ -236,6 +249,14 @@
 
         .card-film-list .card-header {
             border-radius: 20px 20px 0px 0px
+        }
+
+        .fw-500 {
+            font-weight: 500;
+        }
+
+        .fw-300 {
+            font-weight: 300;
         }
 
     </style>

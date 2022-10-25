@@ -23,4 +23,10 @@ class LandingPage extends Controller
         $data['title'] = "Suara Film";
         return view('list_film',$data);
     }
+
+    public function detailFilm()
+    {
+        $data['title'] = "Suara Film";
+        return view('detail_film',$data);
+    }
 }

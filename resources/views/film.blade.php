@@ -130,25 +130,27 @@
             </div>
         </div>
 
+        <script>
+            $('#right-button').click(function() {
+                event.preventDefault();
+                $('#poster').animate({
+                    scrollLeft: "+=200px"
+                }, "slow");
+            });         
+
+             $('#left-button').click(function() {
+                event.preventDefault();
+                $('#poster').animate({
+                    scrollLeft: "-=200px"
+                }, "slow");
+            });
+        </script>
+
     </section>
 
 </div>
 
-<script>
-    $('#right-button').click(function() {
-        event.preventDefault();
-        $('#poster').animate({
-            scrollLeft: "+=200px"
-        }, "slow");
-    }); 
 
-     $('#left-button').click(function() {
-        event.preventDefault();
-        $('#poster').animate({
-            scrollLeft: "-=200px"
-        }, "slow");
-    });
-</script>
 
 
 
