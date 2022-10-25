@@ -16,6 +16,230 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" crossorigin="anonymous">
     </script>
 
+    <style>
+        body {
+            height: 100vh;
+        }
+
+        body::-webkit-scrollbar {
+            width: 0;
+            /* Remove scrollbar space */
+            background: transparent;
+            /* Optional: just make scrollbar invisible */
+        }
+
+        nav.bg-darker {
+            background-color: #3d3e42;
+        }
+
+        nav a.navbar-brand {
+            color: #66c175;
+            font-weight: bold;
+        }
+
+        nav a.nav-link {
+            margin-left: 10px;
+            font-weight: 500;
+            color: #a9abaf;
+        }
+
+        nav a.nav-link:hover {
+            color: #51a57b;
+        }
+
+        nav a.nav-link:focus {
+            color: #51a57b;
+        }
+
+        nav a.nav-link:after {
+            display: block;
+            content: ' ';
+            border-bottom: 2px solid #51a57b;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+        }
+
+        nav a.nav-link:hover:after {
+            color: #51a57b;
+            border-bottom: 2px solid #51a57b;
+            transform: scaleX(1.15);
+        }
+
+        nav a.nav-link.active {
+            font-weight: 500;
+            color: #51a57b;
+        }
+
+        nav a.nav-link.active:after {
+            color: #51a57b;
+            border-bottom: 2px solid #51a57b;
+            transform: scaleX(1.15);
+        }
+
+        .carousel-item {
+            transition: 1s ease;
+        }
+
+        .bg-dark-lil {
+            background-color: #000;
+        }
+
+        .text-genre-carousel {
+            color: #9a9da2;
+            font-size: 24px
+        }
+
+        .text-secondary-carousel {
+            color: #b7b9bd;
+            line-height: 2rem;
+            font-size: 20px
+        }
+
+        .carousel-control-prev {
+            width: 5%;
+        }
+
+        .carousel-control-next {
+            width: 5%;
+        }
+
+        .deskripsi-carousel {
+            padding-left: 6rem;
+        }
+
+        .img-carousel {
+            width: 100%;
+            height: 60vh;
+            object-fit: cover;
+        }
+
+        .img-carousel {
+            -webkit-mask-image: linear-gradient(to right, transparent 2%, black 50%);
+        }
+
+        .d-none-controls {
+            display: none;
+        }
+
+        #carouselExampleControls:hover+.d-none-controls {
+            display: block;
+        }
+
+        .image-poster {
+            border: 0.75px solid black;
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .container-poster {
+            overflow-x: scroll;
+            flex-wrap: nowrap;
+        }
+
+        .container-poster::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+
+        .btn-scroll {
+            padding: .375rem 0.35rem;
+            height: 300px;
+            color: rgba(255, 255, 255, 0.80);
+        }
+
+        .btn:focus,
+        .btn:active {
+            outline: none !important;
+            box-shadow: none;
+        }
+
+        .parent-relative {
+            position: relative;
+        }
+
+        .left-button {
+            border: 0px;
+            background: linear-gradient(to left, transparent 2%, rgba(0, 0, 0, 0.2) 100%);
+            position: absolute;
+            left: -2rem;
+        }
+
+        .right-button {
+            border: 0px;
+            background: linear-gradient(to right, transparent 2%, rgba(0, 0, 0, 0.2) 100%);
+            position: absolute;
+            right: -2rem;
+        }
+
+        .left-button:hover {
+            color: rgb(240, 240, 240);
+            border: 0px;
+            background: linear-gradient(to left, transparent 2%, rgba(0, 0, 0, 0.3) 100%);
+        }
+
+        .right-button:hover {
+            color: rgb(240, 240, 240);
+            border: 0px;
+            background: linear-gradient(to right, transparent 2%, rgba(0, 0, 0, 0.3) 100%);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .text-green {
+            color: #66c175;
+        }
+
+        .carousel-film {
+            margin-top: 58.2px !important;
+        }
+
+        .container_film {
+            margin-top: 6.6rem !important;
+        }
+
+        .bg-black {
+            background-color: #000
+        }
+
+        footer .lh-none {
+            line-height: normal !important;
+        }
+
+        ol.olcustom {
+            padding-left: 1rem;
+        }
+
+        ol.olcustom li {
+            margin-bottom: 10px;
+            color: #acacac;
+            text-align: justify;
+            padding-left: 0.5rem !importan
+        }
+
+        @media (max-width: 991.98px) {
+            .container-fluid.footer {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+
+        .film-mini-detail p {
+            margin-bottom: 0;
+        }
+
+        .card-film-list {
+            border-radius: 20px
+        }
+
+        .card-film-list .card-header {
+            border-radius: 20px 20px 0px 0px
+        }
+
+    </style>
+
 </head>
 
 <body>

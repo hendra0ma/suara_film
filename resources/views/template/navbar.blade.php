@@ -13,6 +13,9 @@
                     <a class="nav-link {{ Route::is('film') ? 'active' : '' }}" aria-current="page" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {{ Route::is('list_film') ? 'active' : '' }}" aria-current="page" href="film">Film</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {{ Route::is('galeri') ? 'active' : '' }}" aria-current="page" href="#">Galeri</a>
                 </li>   
                 <li class="nav-item">
