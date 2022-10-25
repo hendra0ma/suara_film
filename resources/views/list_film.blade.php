@@ -22,7 +22,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -50,7 +50,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -78,7 +78,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -106,7 +106,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -134,7 +134,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -162,7 +162,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -190,7 +190,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
@@ -218,7 +218,7 @@
                             <p><b>Sutradara</b> : Budi Hartanto</p>
                             <p><b>Aktor Utama</b> : 
                                 <br> Alexandra Dadario, John Wick, The Rock, Tom Cruise</p>
-                            <button class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</button>
+                            <a href="detail_film" class="btn btn-warning btn-sm mt-auto text-white rounded-pill">DETAIL FILM</a>
                         </div>  
 
                     </div>
