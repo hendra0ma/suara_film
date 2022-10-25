@@ -85,7 +85,7 @@
     <section class="parent-relative">
         <div class="row align-items-center">
             <div class="col mb-3">
-                <a href="#" class="btn btn-lebih-banyak py-0" style="border-left: 3px solid #66c175">
+                <a href="film" class="btn btn-lebih-banyak py-0" style="border-left: 3px solid #66c175">
                     <h2 class="mb-0">Trending <i class="fa-solid fa-angle-right fs-3"></i></h2>
                 </a>
             </div>
