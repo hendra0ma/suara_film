@@ -6,10 +6,15 @@ use Illuminate\Http\Request;
 
 class LandingPage extends Controller
 {
-    public function index()
+    public function biodata()
     {
         $data['title'] = "Suara Film";
-        return view('home',$data);
+        return view('biodata',$data);
+    }
+    public function galeriBiodata()
+    {
+        $data['title'] = "Suara Film";
+        return view('galeri_biodata',$data);
     }
 
     public function film()
