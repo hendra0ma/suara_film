@@ -139,9 +139,15 @@
             object-fit: cover;
         }
 
+        .image-aktor {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
         .container-poster {
-            overflow-x: scroll;
-            flex-wrap: nowrap;
+            overflow-x: scroll !important;
+            flex-wrap: nowrap !important;
         }
 
         .container-poster::-webkit-scrollbar {
@@ -257,6 +263,28 @@
 
         .fw-300 {
             font-weight: 300;
+        }
+
+        .btn-lebih-banyak:hover i {
+            color: #66c175
+        }
+
+        .aktor-name {
+            font-size: 18px
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        @media (max-width: 1000px) {
+            .mobile {
+                display: block;
+            }
+
+            .desktop {
+                display: none;
+            }
         }
 
     </style>

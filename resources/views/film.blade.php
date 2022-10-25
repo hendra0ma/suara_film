@@ -84,19 +84,18 @@
     {{-- list film --}}
     <section class="parent-relative">
         <div class="row align-items-center">
-            <div class="col">
-                <h1>Trending</h1>
-            </div>
-            <div class="col text-end"> 
-                <a href="#" class="mb-0 link text-green">Lihat Lebih Banyak</a>
+            <div class="col mb-3">
+                <a href="#" class="btn btn-lebih-banyak py-0" style="border-left: 3px solid #66c175">
+                    <h2 class="mb-0">Trending <i class="fa-solid fa-angle-right fs-3"></i></h2>
+                </a>
             </div>
         </div>
 
-        <button class="btn btn-scroll left-button" id="left-button">
+        <button class="btn btn-scroll left-button desktop" id="left-button">
             <h3><i class="fa-solid fa-angle-left"></i></h3>
         </button>
 
-        <button class="btn btn-scroll right-button" id="right-button">
+        <button class="btn btn-scroll right-button desktop" id="right-button">
             <h3><i class="fa-solid fa-angle-right"></i></h3>
         </button>
 
