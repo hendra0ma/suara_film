@@ -69,7 +69,6 @@
                 <ul class="list-titles">
                     <li>Twitter</li>
                     <li>Dribbble</li>
-                    <li>Codepen</li>
                 </ul>
                 <ul class="list-content">
                     <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
