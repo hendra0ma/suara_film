@@ -7,9 +7,9 @@
 
         <div class="carousel-item active">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12">
                     <div class="deskripsi-carousel">
-                        <h1 class="text-white mt-5">
+                        <h1 class="text-white mt-5 mb-0">
                             Title
                         </h1>
                         <h4 class="text-genre-carousel mt-2 mb-0">
@@ -19,8 +19,6 @@
                             Lorem isum dolor sit amet consectetur adipisicing elit. Natus voluptatibus reiciendis odio animi sint, a rem sit explicabo asperiores. Obcaecati soluta, et unde numquam provident ex quae non aspernatur ducimus?
                         </h4>
                     </div>
-                </div>
-                <div class="col-7">
                     <img src="https://i.pinimg.com/564x/20/05/48/200548127f9d2266c0e2e2b4955acd3c.jpg" class="ms-auto d-block img-carousel" alt="...">
                 </div>
             </div>
@@ -69,11 +67,11 @@
         </div>
 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <button class="desktop carousel-control-custom carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="desktop carousel-control-custom carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
