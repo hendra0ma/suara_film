@@ -342,6 +342,11 @@
 
         .film-mini-detail p {
             margin-bottom: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 7;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .card-film-list {
