@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/tentang', [LandingPage::class,"tentang"])->name('tentang');
 Route::get('/detail_film', [LandingPage::class,"detailFilm"])->name('detailFilm');
 Route::get('/film', [LandingPage::class,"listFilm"])->name('listFilm');
 Route::get('/biodata', [LandingPage::class,"biodata"])->name('biodata');

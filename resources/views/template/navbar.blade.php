@@ -19,7 +19,7 @@
                     <a class="nav-link {{ Route::is('galeri_biodata') ? 'active' : '' }}" aria-current="page" href="{{route('galeri_biodata')}}">Galeri</a>
                 </li>   
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::is('tentang') ? 'active' : '' }}" aria-current="page" href="#">Tentang Kami</a>
+                    <a class="nav-link {{ Route::is('tentang') ? 'active' : '' }}" aria-current="page" href="{{route('tentang')}}">Tentang Kami</a>
                 </li>   
                 <li class="nav-item">
                     <a class="nav-link {{ Route::is('kontak') ? 'active' : '' }}" aria-current="page" href="#">Kontak</a>

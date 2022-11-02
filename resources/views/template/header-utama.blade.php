@@ -387,6 +387,48 @@
             }
         }
 
+        .bg-about h1 {
+            position: relative;
+            color: #ffffff;  
+            line-height: 0.9;
+            text-align: center;
+        }
+
+        .bg-about {
+            position: relative; 
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bg-about::before {    
+            content: "";
+            background-image: url('https://img.freepik.com/free-photo/group-asia-young-creative-people-smart-casual-wear-smiling-arms-crossed-creative-office-workplace_7861-3144.jpg?w=1380&t=st=1667390692~exp=1667391292~hmac=5d254d5cd57c7ce23e01147d4b623b64e794e2468463df898dbde0234dce823f');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            filter: brightness(40%);
+        }
+
+        @media (max-width: 475px) {
+            .bg-about {
+                background-size: contain;
+                background-position: 0% 5%;
+                height: 30%;
+            }
+            .bg-about::before {
+                background-attachment: scroll;
+            }
+        }
+
     </style>
 
 </head>
