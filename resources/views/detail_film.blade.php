@@ -2,15 +2,15 @@
 @section('content')
 <div class="container container_film mt-4 mb-5">
     <div class="row">
-        <div class="col-md-12"><h1 class="display-4 fw-500">Title</h1></div>
-        <div class="col-md-12 fw-500">2022 &nbsp;&#8226;&nbsp; PG-13 &nbsp;&#8226;&nbsp; 2j 10m</div>
+        <div class="col-md-12"><h1 class="display-4 fw-500">{{$req->title}}</h1></div>
+        <div class="col-md-12 fw-500">{{$req->year}} &nbsp;&#8226;&nbsp; {{$req->age}} &nbsp;&#8226;&nbsp; {{$req->long}}</div>
     </div>
     <div class="row mt-3">
         <div class="col">
-            <iframe width="100%" height="450" src="https://www.youtube.com/embed/jEDaVHmw7r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="450" src="{{$req->trailer}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-auto desktop">
-            <img height="450" src="https://i.pinimg.com/564x/4c/80/ac/4c80ac0ccf18e1a198bc6b4120a43a79.jpg" alt="">
+            <img style="height: 450px" src="{{$req['img_cover']}}" alt="">
         </div>
         <div class="col-12 mt-1">
             <span class="badge bg-dark rounded-pill">Komedi</span>
@@ -23,10 +23,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at amet aliquid harum doloribus mollitia eius iste, nostrum saepe ad, consectetur autem ut inventore repellendus commodi sed eum ea voluptatem.</p>
         </div>
         <div class="col-md-4">
-            <p><b>Tahun</b> : 2020</p>
-            <p><b>Genre</b> : Komedi</p>
-            <p><b>Tanggal Rilis</b> : 21 Januari 2020</p>
-            <p><b>Sutradara</b> : Budi Hartanto</p>
+            <p><b>Tahun</b> : {{$req->year}}</p>
+            <p><b>Genre</b> : {{$req->genre}}</p>
+            <p><b>Tanggal Rilis</b> : {{$req->date}}</p>
+            <p><b>Sutradara</b> : {{$req->director}}</p>
         </div>
     </div>
 

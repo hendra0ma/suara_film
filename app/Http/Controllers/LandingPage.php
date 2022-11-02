@@ -31,10 +31,10 @@ class LandingPage extends Controller
         return view('list_film',$data);
     }
 
-    public function detailFilm()
+    public function detailFilm(Request $request)
     {
         $data['title'] = "Suara Film";
-        $data['list_film'] = $this->list_film();
+        $data['req'] = $request;
         return view('detail_film',$data);
     }
 
@@ -117,7 +117,7 @@ class LandingPage extends Controller
                 'director' => "Kevin Kölsch, Dennis Widmyer",
                 'actor' => "Jason Clarke, Amy Seimetz, John Lithgow, Jeté Laurence, Hugo Lavoie, Lucas Lavoie, Obssa Ahmed, Alyssa Brooke Levine, Maria Herrera, Frank Schorpion, Linda E. Smith, Sonia Maria Chirila, Naomi Frenette, Suzi Stingl, Kelly Lee, Nina Lauren, Alison O'Donnell, Raphaél Laporte, Simon Pelletier-Gilbert",
                 'img-cover' => "https://i.pinimg.com/564x/d0/11/33/d0113352f4b921fc92d958e106daefe1.jpg",
-                "trailer" => "https://www.youtube.com/embed/gYWvwkXreaI"
+                "trailer" => "https://www.youtube.com/embed/VllcgXSIJkE"
             ],
             [
                 'id' => 7,

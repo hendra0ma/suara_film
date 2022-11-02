@@ -23,7 +23,20 @@
                             <p><b>Sutradara</b> : {{$lf['director']}}</p>
                             <p class="mb-3"><b>Aktor Utama</b> : 
                                 <br> {{$lf['actor']}}</p>
-                            <a href="detail_film" class="btn btn-warning mt-auto btn-sm mt-2 text-white rounded-pill ">DETAIL FILM</a>
+
+                            <form action="{{url('')}}/detail_film" method="get" id="form-film-{{$lf['id']}}">
+                                <input type="hidden" name="title" value="{{$lf['title']}}">
+                                <input type="hidden" name="genre" value="{{$lf['genre']}}">
+                                <input type="hidden" name="year" value="{{$lf['year']}}">
+                                <input type="hidden" name="date" value="{{$lf['date']}}">
+                                <input type="hidden" name="long" value="{{$lf['long']}}">
+                                <input type="hidden" name="age" value="{{$lf['age']}}">
+                                <input type="hidden" name="director" value="{{$lf['director']}}">
+                                <input type="hidden" name="actor" value="{{$lf['actor']}}">
+                                <input type="hidden" name="img_cover" value="{{$lf['img-cover']}}">
+                                <input type="hidden" name="trailer" value="{{$lf['trailer']}}">
+                            </form>
+                            <a onclick="return $('form#form-film-<?= $lf['id'] ?>').submit()" class="btn btn-warning mt-auto btn-sm mt-2 text-white rounded-pill ">DETAIL FILM</a>
                         </div>  
 
                     </div>
