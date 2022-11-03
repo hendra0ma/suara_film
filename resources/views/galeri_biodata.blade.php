@@ -119,7 +119,7 @@
                             <p><b>Alamat</b> : {{$pl["alamat"]}}</p>
                             <p><b>Pengalaman</b> : <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, delectus? Qui aut quia voluptate beatae fugiat voluptas assumenda nemo animi odio culpa molestiae corrupti quis, ipsa, amet harum tenetur saepe.</p>
                         
-                            <a href="detail_film" class="btn btn-dark btn-sm mt-auto text-white rounded-5">DETAIL MODEL</a>
+                            <a href="{{url('')}}/biodata" class="btn btn-dark btn-sm mt-auto text-white rounded-5">DETAIL MODEL</a>
                         </div>  
 
                     </div>

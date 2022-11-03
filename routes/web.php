@@ -18,4 +18,9 @@ Route::get('/detail_film', [LandingPage::class,"detailFilm"])->name('detailFilm'
 Route::get('/film', [LandingPage::class,"listFilm"])->name('listFilm');
 Route::get('/biodata', [LandingPage::class,"biodata"])->name('biodata');
 Route::get('/galeri-biodata', [LandingPage::class,"galeriBiodata"])->name('galeri_biodata');
+Route::get('/register-page', function ()
+{
+    return view('register_page');
+});
+
 Route::get('/', [LandingPage::class,"film"])->name('film');
