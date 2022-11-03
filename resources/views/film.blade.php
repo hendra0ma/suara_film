@@ -7,9 +7,9 @@
 
         <div class="carousel-item active">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12">
                     <div class="deskripsi-carousel">
-                        <h1 class="text-white mt-5">
+                        <h1 class="text-white mt-5 mb-0">
                             Title
                         </h1>
                         <h4 class="text-genre-carousel mt-2 mb-0">
@@ -19,8 +19,6 @@
                             Lorem isum dolor sit amet consectetur adipisicing elit. Natus voluptatibus reiciendis odio animi sint, a rem sit explicabo asperiores. Obcaecati soluta, et unde numquam provident ex quae non aspernatur ducimus?
                         </h4>
                     </div>
-                </div>
-                <div class="col-7">
                     <img src="https://i.pinimg.com/564x/20/05/48/200548127f9d2266c0e2e2b4955acd3c.jpg" class="ms-auto d-block img-carousel" alt="...">
                 </div>
             </div>
@@ -69,11 +67,11 @@
         </div>
 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <button class="desktop carousel-control-custom carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="desktop carousel-control-custom carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
@@ -100,33 +98,11 @@
         </button>
 
         <div class="row g-3 container-poster" id="poster">
+            @foreach($list_film as $lf)
             <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/4c/80/ac/4c80ac0ccf18e1a198bc6b4120a43a79.jpg" alt="">
+                <img class="image-poster" src="{{$lf['img-cover']}}" alt="">
             </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/76/79/fb/7679fb44d1fe6fedf03f637b6fd15079.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/a9/29/67/a92967108cb3cd316d75ee89c052d8b4.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/04/7e/a7/047ea77d4ab0eb6c18e83e25309e8f77.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/736x/6d/bc/28/6dbc281e78eaa97de537744ac5aad3ae.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/d0/11/33/d0113352f4b921fc92d958e106daefe1.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/a1/88/e5/a188e568a782853d090c381ee38d79f3.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/a4/3d/27/a43d27c53e995321825f4bcb881006f5.jpg" alt="">
-            </div>
-            <div class="col-auto">
-                <img class="image-poster" src="https://i.pinimg.com/564x/cb/e0/80/cbe0805aea34cca87635e51a007598a7.jpg" alt="">
-            </div>
+            @endforeach
         </div>
 
         <script>

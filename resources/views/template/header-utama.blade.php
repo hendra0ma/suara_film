@@ -105,17 +105,112 @@
 
         .deskripsi-carousel {
             padding-left: 6rem;
+            padding-right: 6rem;
+            position: absolute;
+            z-index: 1;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to left, transparent 2%, black 50%);
         }
 
         .img-carousel {
-            width: 100%;
             height: 60vh;
             object-fit: cover;
-        }
-
-        .img-carousel {
             -webkit-mask-image: linear-gradient(to right, transparent 2%, black 50%);
         }
+
+        @media (max-width: 1050px) {
+            .deskripsi-carousel {
+                width: 65%;
+            }
+            .deskripsi-carousel h1 {
+                font-size: 25px;
+            }
+
+            .deskripsi-carousel h4 {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 880px) {
+            .img-carousel {
+                width: 100%;
+                object-fit: cover;
+                -webkit-mask-image: linear-gradient(to right, transparent 2%, black 0%);
+            }
+
+            .deskripsi-carousel {
+                padding-left: 4rem;
+                padding-right: 2rem;
+                width: 40% !important;
+                background: rgba(0, 0, 0, 0.6);
+            }
+
+            .deskripsi-carousel h1 {
+                font-size: 23px !important;
+            }
+
+            .deskripsi-carousel h4 {
+                font-size: 16px !important;
+            }
+        }
+
+        @media (max-width: 700px) {
+
+            .img-carousel {
+                height: 35vh;
+                object-fit: cover;
+                -webkit-mask-image: linear-gradient(to right, transparent 2%, black 50%);
+            }
+
+            .deskripsi-carousel {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-top: 0% !important;
+                width: 40% !important;
+                background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.95));
+            }
+
+            .deskripsi-carousel h1 {
+                font-size: 20px !important;
+                margin-top: 2rem !important;
+            }
+
+            .deskripsi-carousel h4 {
+                font-size: 13px !important;
+                line-height: 1.25rem;
+                margin-top: 0.2rem !important;
+                margin-bottom: 0.2rem !important;
+            }
+        }
+
+        @media (max-width: 565px) {
+            .deskripsi-carousel h1 {
+                font-size: 16px !important;
+                margin-top: 1rem !important;
+            }
+
+            .deskripsi-carousel h4 {
+                font-size: 10px !important;
+                line-height: 1rem;
+                margin-top: 0.15rem !important;
+                margin-bottom: 0.15rem !important;
+            }
+
+        
+        }
+
+        .carouse-lcontrol-custom {
+            z-index: 1000;
+        }
+
+        /* .bg-image-att {
+            background-image: url(https://i.pinimg.com/564x/20/05/48/200548127f9d2266c0e2e2b4955acd3c.jpg), opacity: 0.5;
+            background-repeat: no-repeat; 
+            background-position: right; 
+            height: 60vh; 
+            background-size: contain
+        } */
 
         .d-none-controls {
             display: none;
@@ -247,6 +342,11 @@
 
         .film-mini-detail p {
             margin-bottom: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 7;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .card-film-list {
@@ -284,6 +384,48 @@
 
             .desktop {
                 display: none;
+            }
+        }
+
+        .bg-about h1 {
+            position: relative;
+            color: #ffffff;  
+            line-height: 0.9;
+            text-align: center;
+        }
+
+        .bg-about {
+            position: relative; 
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bg-about::before {    
+            content: "";
+            background-image: url('https://img.freepik.com/free-photo/group-asia-young-creative-people-smart-casual-wear-smiling-arms-crossed-creative-office-workplace_7861-3144.jpg?w=1380&t=st=1667390692~exp=1667391292~hmac=5d254d5cd57c7ce23e01147d4b623b64e794e2468463df898dbde0234dce823f');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            filter: brightness(40%);
+        }
+
+        @media (max-width: 475px) {
+            .bg-about {
+                background-size: contain;
+                background-position: 0% 5%;
+                height: 30%;
+            }
+            .bg-about::before {
+                background-attachment: scroll;
             }
         }
 
