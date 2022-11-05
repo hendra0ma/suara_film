@@ -429,6 +429,48 @@
             }
         }
 
+        .bg-kontak h1 {
+            position: relative;
+            color: #ffffff;  
+            line-height: 0.9;
+            text-align: center;
+        }
+
+        .bg-kontak {
+            position: relative; 
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bg-kontak::before {    
+            content: "";
+            background-image: url('https://img.freepik.com/premium-photo/attractive-business-woman-asian-suits-headsets-are-smiling-while-working-with-computer-office-customer-service-assistant-working-office_38052-176.jpg?w=1380');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            filter: brightness(40%);
+        }
+
+        @media (max-width: 475px) {
+            .bg-kontak {
+                background-size: contain;
+                background-position: 0% 5%;
+                height: 30%;
+            }
+            .bg-kontak::before {
+                background-attachment: scroll;
+            }
+        }
+
     </style>
 
 </head>
