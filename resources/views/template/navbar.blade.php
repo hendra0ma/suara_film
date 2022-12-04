@@ -1,7 +1,7 @@
 {{-- carousel --}}
 <nav class="navbar navbar-expand-lg bg-dark-lil fixed-top">
     <div class="container">
-        <a class="navbar-brand fs-4" href="/">Suara Film</a>
+        <a class="navbar-brand fs-4" href="/">Swara Film</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

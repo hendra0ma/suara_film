@@ -97,7 +97,7 @@
         <hr class="mb-4 mt-4" style="border: 2px solid white">
         <div class="row">
             <div class="col-12 text-center" style="color: #acacac;">
-                Copyright © 2022 PT. Tanah Airku Merdeka All rights reserved.
+                Copyright © 2022 PT. SWARA RESWARA ABADI All rights reserved.
             </div>
         </div>
     </div>
