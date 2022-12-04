@@ -6,41 +6,46 @@ use Illuminate\Http\Request;
 
 class LandingPage extends Controller
 {
+    public function index()
+    {
+        $data['title'] = 'swara film';
+        return view('landing');
+    }
     public function biodata()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         return view('biodata',$data);
     }
 
     public function tentang()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         return view('tentang',$data);
     }
 
     public function galeriBiodata()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         return view('galeri_biodata',$data);
     }
 
     public function film()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         $data['list_film'] = $this->list_film();
         return view('film',$data);
     }
 
     public function listFilm()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         $data['list_film'] = $this->list_film();
         return view('list_film',$data);
     }
 
     public function detailFilm(Request $request)
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         $data['req'] = $request;
         return view('detail_film',$data);
     }
