@@ -25,7 +25,7 @@ class LandingPage extends Controller
     
     public function kontak()
     {
-        $data['title'] = "Suara Film";
+        $data['title'] = "Swara Film";
         return view('kontak',$data);
     }
 
