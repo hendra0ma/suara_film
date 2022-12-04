@@ -9,7 +9,7 @@ class LandingPage extends Controller
     public function index()
     {
         $data['title'] = 'swara film';
-        return view('landing');
+        return view('landing',$data);
     }
     public function biodata()
     {

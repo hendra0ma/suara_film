@@ -1,29 +1,113 @@
 @extends('template.main_film')
 @section('content')
 
-<div class="mb-5 bg-about text-center text-white carousel-film">
-    <h1 class="display-3">ABOUT US</h1>
-</div>
 
-<div class="container mb-5">
-    <h1 class="display-4 text-center text-white">
-        <span style="background-color: black">
-            THE WORLD SHALL KNOW PAIN
-        </span>
-    </h1>
-
-    <center>
-        <img class="mt-5" style="width: 75%" src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg?w=1060&t=st=1667391663~exp=1667392263~hmac=d65e32f9d597df1195676a529866acae21fd6a972d187802ab53fe4298a27a9c" alt="">
-    </center>
-    
-    <div class="row mt-5 justify-content-center">
-        <div class="col-12 text-center">
-            <h1 class="fw-bold">APA ITU SUARA FILM?</h1>
+<div class="page-heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 align-self-center">
+                <div class="caption  header-text">
+                  
+                    <h4>Discover More <em>About Us</em></h4>
+                    
+                    <p style="text-align: justify;">
+                        PT. SWARA RESWARA ABADI berdiri pada tahun 2018 tepatnya di tanggal 8 Mei
+                        2018 di kota Jakarta Selatan berdasarkan akta notaris yang dibuat oleh
+                        Ilmiawan Dekrit Supatmo, SH. MH. Serta telah memperoleh persetujuan
+                        Menteri Hukum dan Hak Asasi Manusia Republik Indonesia melalui surat
+                        keputusan nomor : AHU-0024253.AH.01.01.TAHUN 2018. 
+                    </p>
+                   
+                    <p style="text-align: justify;">
+                        Berdirinya perusahaan kami sebagai bentuk respon dalam menggerakkan dan
+                        meningkatkan ekonomi. PT. Swara Reswara Abadi adalah perusahaan yang
+                        bergerak di bidang rumah produksi, event organizer, supplier, kontraktor, arst
+                        management dan jasa lainnya. Bidang usaha yang ditangani perseroan ini
+                        merupakan kompetensi perseroan dan didukung oleh m manajemen yang
+                        mempunyai pengalaman, kompetensi dan dedikasi dibidang tersebut. 
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="col-lg-5 align-self-center">
+                <img src="{{asset('landpage')}}/assets/images/about-us-image.jpg" alt="">
+            </div>
         </div>
-        <div class="col-10 mt-3" style="text-align: justify">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga exercitationem sint magnam, commodi recusandae! Necessitatibus nesciunt nam ex, quos in cum rem voluptate nemo. Quam necessitatibus nihil enim optio tempore atque iure porro placeat quia. Vero quia vitae ex, modi debitis quos magnam reprehenderit corporis. Sapiente eaque veniam, exercitationem vel dolor sequi vero ab dicta, quas numquam perferendis minima? Facilis deleniti optio, dicta, commodi dolore laboriosam praesentium iste beatae tempore consequuntur earum impedit eaque, corporis maxime repudiandae nisi accusantium eos ea doloremque. Repellat, molestias quidem obcaecati dicta sunt voluptates maiores ullam nisi expedita aspernatur, alias quos? Tenetur, quam id.</p>
+
+        <div class="row mt-5">
+            <div class="col-lg-5 align-self-center">
+                <img src="{{asset('landpage')}}/assets/images/happyclient-01.jpg" alt="">
+            </div>
+            <div class="col-lg-7 align-self-center">
+                <div class="caption  header-text
+                
+                ">
+
+                    <p style="padding-right: 0%; padding-left: 25%; text-align:justify">
+                        Dengan dedikasi yang nggi kami terus berkomitmen untuk memberikan
+                        pelayanan yang berkualitas, pelayanan yang maksimal, serta kemudahan akses
+                        terhadap semua jaringan perusahaan. 
+                    </p>
+
+                    <p style="padding-right: 0%; padding-left: 25%; text-align:justify">
+                        Untuk mewujudkan keinginan tersebut kami selalu berusaha melakukan
+                        inovasi terkait dengan pelayanan serta kontrol terhadap klien kami. Selain itu
+                        kami juga memiliki sistem sumber daya manusia yang baik dan terencana. 
+                    </p>
+
+                    <p style="padding-right: 0%; padding-left: 25%; text-align:justify">
+                        PT. Swara Reswara Abadi berkomitmen dalam meningkatkan sumber daya
+                        manusia yang berintegritas, disiplin, kreaf dan produkf. Menjaga
+                        pertumbuhan dan pendapatan perusahaan dengan strategi bisnis yang tepat
+                        dengan mengedepankan penggunaan data serta teknologi dalam segala aspek
+                        sehingga ketepatan dan kegiatan pengambilan keputusan dapat dilakukan
+                        dalam menjawab tantangan baik yang datang dari luar maupun dari dalam
+                        organisasi. 
+                    </p>
+                   
+                </div>
+            </div>
         </div>
     </div>
-
+    
+    <div class="video-info section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="video-thumb">
+                        <img src="{{asset('landpage')}}/assets/images/video-thumb.jpg" alt="">
+                        <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="section-heading">
+                        <h2>Detailed Information On What We Do &amp; Who We Are</h2>
+                        <div class="line-dec"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut
+                            labore et
+                            dolore dolor.</p>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-slide marketing">
+                            <div class="fill"></div>
+                            <h6>SEO Marketing</h6>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-slide digital">
+                            <div class="fill"></div>
+                            <h6>Digital Marketing</h6>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-slide media">
+                            <div class="fill"></div>
+                            <h6>Social Media Management</h6>
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 @endsection

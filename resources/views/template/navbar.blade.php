@@ -1,38 +1,50 @@
-{{-- carousel --}}
-<nav class="navbar navbar-expand-lg bg-dark-lil fixed-top">
-    <div class="container">
-        <a class="navbar-brand fs-4" href="/">Suara Film</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::is('film') ? 'active' : '' }}" aria-current="page" href="/">Beranda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::is('list_film') ? 'active' : '' }}" aria-current="page" href="{{route('listFilm')}}">Film</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::is('galeri_biodata') ? 'active' : '' }}" aria-current="page" href="{{route('galeriBiodata')}}">Galeri</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::is('tentang') ? 'active' : '' }}" aria-current="page" href="{{route('tentang')}}">Tentang Kami</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::is('kontak') ? 'active' : '' }}" aria-current="page" href="{{route('kontak')}}">Kontak</a>
-                </li>   
-            </ul>
-            
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
-</nav>
+    <!-- ***** Preloader End ***** -->
 
-<script type="text/javascript">
-    window.addEventListener("scroll", function(){
-        var header = document.querySe1ector( "nav");
-        header.classList.togg1e("fixed-top", window.scrollY > 0);
-    })
-</script>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky" style="top:0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo text-white">
+                            <h1 class="mb-0">Swara Film</h1>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#services">Services</a></li>
+                            <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="faqs.html">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#infos">Infos</a></li>
+                            <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
