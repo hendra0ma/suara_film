@@ -22,6 +22,12 @@ class LandingPage extends Controller
         $data['title'] = "Swara Film";
         return view('tentang',$data);
     }
+    
+    public function kontak()
+    {
+        $data['title'] = "Suara Film";
+        return view('kontak',$data);
+    }
 
     public function galeriBiodata()
     {

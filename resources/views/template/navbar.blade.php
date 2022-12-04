@@ -13,16 +13,16 @@
                     <a class="nav-link {{ Route::is('film') ? 'active' : '' }}" aria-current="page" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::is('list_film') ? 'active' : '' }}" aria-current="page" href="film">Film</a>
+                    <a class="nav-link {{ Route::is('list_film') ? 'active' : '' }}" aria-current="page" href="{{route('listFilm')}}">Film</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::is('galeri_biodata') ? 'active' : '' }}" aria-current="page" href="{{route('galeri_biodata')}}">Galeri</a>
+                    <a class="nav-link {{ Route::is('galeri_biodata') ? 'active' : '' }}" aria-current="page" href="{{route('galeriBiodata')}}">Galeri</a>
                 </li>   
                 <li class="nav-item">
                     <a class="nav-link {{ Route::is('tentang') ? 'active' : '' }}" aria-current="page" href="{{route('tentang')}}">Tentang Kami</a>
                 </li>   
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::is('kontak') ? 'active' : '' }}" aria-current="page" href="#">Kontak</a>
+                    <a class="nav-link {{ Route::is('kontak') ? 'active' : '' }}" aria-current="page" href="{{route('kontak')}}">Kontak</a>
                 </li>   
             </ul>
             
