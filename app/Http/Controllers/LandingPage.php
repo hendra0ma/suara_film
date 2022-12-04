@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class LandingPage extends Controller
 {
+    public function index()
+    {
+        $data['title'] = 'swara film';
+        return view('landing');
+    }
     public function biodata()
     {
         $data['title'] = "Swara Film";

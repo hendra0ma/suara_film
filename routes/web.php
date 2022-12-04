@@ -25,4 +25,4 @@ Route::get('/register-page', function ()
     return view('register_page');
 });
 
-Route::get('/', [LandingPage::class,"film"])->name('film');
+Route::get('/', [LandingPage::class,"index"])->name('landing');
