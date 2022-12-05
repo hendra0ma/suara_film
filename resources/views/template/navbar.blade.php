@@ -25,18 +25,24 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#services">Services</a></li>
-                            <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+                            <li class="scroll-to-section"><a href="/" class="{{ Route::is('landing') ? 'active' : '' }}">Home</a></li>
+                            <li class="scroll-to-section"><a href="{{route('listFilm')}}" class="{{ Route::is('listFilm') ? 'active' : '' }}">Film</a></li>
+                            <li class="scroll-to-section"><a href="{{route('galeriBiodata')}}" class="{{ Route::is('galeriBiodata') ? 'active' : '' }}">Biodata</a></li>
                             <li class="has-sub">
-                                <a href="javascript:void(0)">Pages</a>
+                                <a href="javascript:void(0)">Layanan</a>
                                 <ul class="sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="faqs.html">FAQs</a></li>
+                                    <li><a href="">COMPANY / CUSTOMER GATHERING</a></li>
+                                    <li><a href="">ARTIST & TALENT MANAGEMENT</a></li>
+                                    <li><a href="">SEMINAR</a></li>
+                                    <li><a href="">ENTERTAINMENT PROPERTY</a></li>
+                                    <li><a href="">PRODUCT LAUNCHING & PROMOTION EVENT</a></li>
+                                    <li><a href="">EXHIBITION / EXPO</a></li>
+                                    <li><a href="">ANNIVERSARY / BIRTHDAY EVENT</a></li>
+                                    <li><a href="">TRADITIONAL & MODERN DANCE</a></li>
                                 </ul>
                             </li>
-                            <li class="scroll-to-section"><a href="#infos">Infos</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+                            {{-- <li class="scroll-to-section"><a href="#infos">Infos</a></li> --}}
+                            <li class="scroll-to-section"><a href="{{route('tentang')}}" class="{{ Route::is('tentang') ? 'active' : '' }}">Tentang</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
